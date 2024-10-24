@@ -26,6 +26,9 @@
     align-items: center;
 
 }
+.select-style option{
+    font-weight: 800;
+}
 
 .navcenter{
     width: 60%;
@@ -41,11 +44,24 @@
     /* background-color: burlywood; */
     display: flex;
     flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    /* border: 1px solid black; */
 
 }
 .eng{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.eng select{
+    border: none;
 }
 
 
@@ -70,23 +86,23 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 4px;
 }
 
 .about{
     width: 60px;
-    height: auto;
+    height: 20px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(206, 187, 187);
+    background-color: rgb(236, 225, 225);
 }
 
 .sign{
-    width: 80px;
+    width: 100px;
     height: 30px;
-    border-radius: 12px;
+    border-radius: 15px;
     background-color: black;
     color: white;
     display: flex;
@@ -107,7 +123,7 @@
 }
 .sec1right{
     width: 40%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -121,7 +137,7 @@
 
 .disc{
     width: 150px;
-    height: 20px;
+    height: 30px;
     border-radius: 15px;
     background-color: yellow;
     display: flex;
